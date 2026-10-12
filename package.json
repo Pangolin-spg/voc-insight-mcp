@@ -1,0 +1,15 @@
+{
+  "name": "pangolinfo-voc-insight-mcp",
+  "version": "0.1.0",
+  "description": "Local stdio bridge for Pangolinfo VOC Insight MCP: voice of customer, social listening and sentiment research.",
+  "type": "module",
+  "private": true,
+  "bin": { "pangolinfo-voc-insight-mcp": "bridge.js" },
+  "scripts": { "start": "node bridge.js", "test": "node --test bridge.test.js" },
+  "engines": { "node": ">=22" },
+  "dependencies": { "@modelcontextprotocol/sdk": "1.30.0" },
+  "homepage": "https://www.pangolinfo.com/voc-insight-mcp/",
+  "repository": { "type": "git", "url": "https://github.com/Pangolin-spg/voc-insight-mcp.git" },
+  "keywords": ["mcp", "voice-of-customer", "social-listening", "sentiment-analysis", "pangolinfo"],
+  "license": "MIT"
+}
